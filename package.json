@@ -10,7 +10,7 @@
     "test:badges": "yarn test:coverage  && jest-coverage-badges",
     "lint": "yarn eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "dev": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "build-storybook": "build-storybook -o docs",
     "build:lib": "rollup -c",
     "commit": "npx git-cz",
     "prepare": "husky install"

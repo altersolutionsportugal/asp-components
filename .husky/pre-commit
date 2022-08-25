@@ -3,4 +3,5 @@
 
 yarn test:badges
 yarn lint
+yarn build-storybook
 yarn build:lib && git add .

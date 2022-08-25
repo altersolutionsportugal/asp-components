@@ -11,8 +11,10 @@
     "skipLibCheck": true
   },
   "exclude": [
+    "node_modules",
     "./rollup.config.js",
     "./coverage/**/*",
+    "./docs/**/*",
     "./dist/**/*"
   ]
 }
