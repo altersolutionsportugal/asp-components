@@ -12,6 +12,7 @@
   },
   "exclude": [
     "./rollup.config.js",
+    "./coverage/**/*",
     "./dist/**/*"
   ]
 }
