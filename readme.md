@@ -5,6 +5,14 @@
 
 # ASP Components
 
+## First step
+
+Install global commitzen in your computer
+
+```shell
+npm install -g commitizen
+```
+
 ## How to create a component
 
 Go to `./src/components` and create a component and test
@@ -20,19 +28,31 @@ When us commit anything, the husky running pre-commit, this pre-commit will runn
 ## Commands
 
 ### Run storybook
-`yarn dev`
+```shell
+yarn dev
+```
 
 ### Run eslint react components
-`yarn lint`
+```shell
+yarn lint
+```
 
  ### Run tests react components
-`yarn test`
+```shell
+yarn test
+```
 
 ### Run tests to husky and CI/CD
-`yarn test:ci`
+```shell
+yarn test:ci
+```
 
 ### Build storybook
-`yarn build`
+```shell
+yarn build
+```
 
 ### Build lib to react components
-`yarn build:lib`
+```shell
+yarn build:lib
+```
