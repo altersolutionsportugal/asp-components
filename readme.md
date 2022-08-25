@@ -14,14 +14,20 @@ When us commit anything, the husky running pre-commit, this pre-commit will runn
 
 ## Commands
 
-`yarn dev // to run storybook`
+### Run storybook
+`yarn dev`
 
-`yarn lint // to run eslint react components`
+### Run eslint react components
+`yarn lint`
 
-`yarn test // to run tests react components`
+ ### Run tests react components
+`yarn test`
 
-`yarn test:ci // to run tests to husky and CI/CD`
+### Run tests to husky and CI/CD
+`yarn test:ci`
 
-`yarn build // to build storybook`
+### Build storybook
+`yarn build`
 
-`yarn build:lib // to build lib to react components`
+### Build lib to react components
+`yarn build:lib`
