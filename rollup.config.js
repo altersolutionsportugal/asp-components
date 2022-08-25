@@ -17,21 +17,21 @@ export default [
         file: 'dist/index.es.js',
         format: 'es',
         exports: 'named',
-      }
+      },
     ],
     plugins: [
-      typescript({ module: "ESNext" }),
+      typescript({ module: 'ESNext' }),
       postcss({
         plugins: [],
         minimize: true,
       }),
       babel({
         exclude: 'node_modules/**',
-        presets: ['@babel/preset-react']
+        presets: [ '@babel/preset-react' ],
       }),
       external(),
       resolve(),
       terser(),
-    ]
-  }
+    ],
+  },
 ]
