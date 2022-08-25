@@ -1,0 +1,60 @@
+{
+  "name": "asp-components",
+  "version": "0.0.1",
+  "description": "This is the Alter Solutions Design System",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build:lib": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altersolutionsportugal/asp-components.git"
+  },
+  "keywords": [
+    "Alter",
+    "Solutions",
+    "Design",
+    "System"
+  ],
+  "author": "Alter Solutions",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/altersolutionsportugal/asp-components/issues"
+  },
+  "homepage": "https://github.com/altersolutionsportugal/asp-components#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-react": "^7.18.6",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.4.0",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-interactions": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/builder-webpack4": "^6.5.10",
+    "@storybook/manager-webpack4": "^6.5.10",
+    "@storybook/react": "^6.5.10",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "babel-loader": "^8.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.78.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {}
+}
