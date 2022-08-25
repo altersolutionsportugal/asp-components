@@ -12,5 +12,5 @@ src
 .gitattributes
 
 jest.config.ts
-rollup.config.ts
-tsconfig.js
+rollup.config.js
+tsconfig.json
