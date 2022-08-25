@@ -1,1 +1,1 @@
-"use strict";function e(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}Object.defineProperty(exports,"__esModule",{value:!0});var t=e(require("react"));exports.Card=()=>t.default.createElement("h1",null,"Hello Card");
+"use strict";function e(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}Object.defineProperty(exports,"__esModule",{value:!0});var t=e(require("react"));exports.Card=({children:e,onClick:r})=>t.default.createElement("div",{"aria-hidden":"true",onClick:r},e);
