@@ -1,0 +1,16 @@
+.github
+.husky
+.storybook
+.vscode
+coverage
+docs
+src
+
+.editorconfig
+.eslintignore
+.eslintrc.json
+.gitattributes
+
+jest.config.ts
+rollup.config.ts
+tsconfig.js

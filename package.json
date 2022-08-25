@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "This is the Alter Solutions Design System",
   "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "test": "jest --watch",
     "test:ci": "jest",
