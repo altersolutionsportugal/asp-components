@@ -5,6 +5,4 @@ import { Card } from '../components/Card'
 
 const stories = storiesOf('Card Test', module)
 
-stories.add('Card', () => {
-  return <Card />
-})
+stories.add('Card', () => <Card />)

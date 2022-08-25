@@ -1,0 +1,46 @@
+{
+    "extends": [
+      "plugin:react/recommended",
+      "plugin:jest/recommended",
+      "plugin:@typescript-eslint/recommended",
+      "airbnb"
+    ],
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "extensions": [ ".js", ".jsx", ".ts", ".tsx", ".json" ]
+        }
+      }
+    },
+    "rules": {
+      "no-console": [ 1, { "allow": [ "warn", "error" ] }],
+      "prefer-const": "error",
+      "comma-dangle": [ "error", "always-multiline" ],
+      "react/jsx-filename-extension": 0,
+      "react/prefer-stateless-function": 0,
+      "react/function-component-definition": 0,
+      "react/react-in-jsx-scope": 0,
+      "react/require-default-props": "off",
+      "react/button-has-type": 0,
+      "indent": [ "error", 2, { "SwitchCase": 1 }],
+      "no-empty-function": "error",
+      "newline-before-return": "error",
+      "max-len": [ "error", { "code": 120, "ignorePattern": "^import\\W.*" }],
+      "no-multiple-empty-lines": [ "error", { "max": 1, "maxBOF": 0, "maxEOF": 0 }],
+      "import/no-extraneous-dependencies": 0,
+      "import/order": 0,
+      "import/extensions": "off",
+      "import/prefer-default-export": 0,
+      "semi": [ "error", "never" ],
+      "object-curly-spacing": [ "error", "always" ],
+      "object-curly-newline": [ "error", {
+        "multiline": true,
+        "consistent": true,
+        "minProperties": 4
+      }],
+      "array-bracket-spacing": [ "error", "always", {
+        "objectsInArrays": false,
+        "arraysInArrays": false
+      }]
+    }
+  }
