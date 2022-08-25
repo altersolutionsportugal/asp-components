@@ -8,10 +8,13 @@ Go to `./src/components` and create a component and test
 
 Go to `./src/stories` and create a stories
 
+## Commit
+
+When us commit anything, the husky running pre-commit, this pre-commit will running a test, lint and build lib.
+
 ## Commands
 
 `yarn dev // to run storybook`
-
 
 `yarn lint // to run eslint react components`
 
