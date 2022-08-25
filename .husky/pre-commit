@@ -3,3 +3,4 @@
 
 yarn test:ci
 yarn lint
+yarn build:lib && git add .
