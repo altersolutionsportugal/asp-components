@@ -1,3 +1,8 @@
+![statements](coverage/badge-statements.svg)
+![functions](coverage/badge-functions.svg)
+![branches](coverage/badge-branches.svg)
+![lines](coverage/badge-lines.svg)
+
 # ASP Components
 
 ## How to create a component

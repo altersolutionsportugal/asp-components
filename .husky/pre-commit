@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-yarn test:ci
+yarn test:badges
 yarn lint
 yarn build:lib && git add .

@@ -6,6 +6,8 @@
   "scripts": {
     "test": "jest --watch",
     "test:ci": "jest",
+    "test:coverage": "jest --ci --coverage",
+    "test:badges": "yarn test:coverage  && jest-coverage-badges",
     "lint": "yarn eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "dev": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
