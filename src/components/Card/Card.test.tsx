@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from '@testing-library/react'
 
-import { Card } from '.'
+import Card from '.'
 
 describe('renders component Card', () => {
   it('should create snapShot', () => {

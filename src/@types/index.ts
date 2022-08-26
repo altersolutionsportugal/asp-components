@@ -1,7 +1,6 @@
-/* eslint-disable import/no-import-module-exports */
 /* eslint-disable import/no-unresolved */
-import * as Button from './Button.d'
-import * as Card from './Card.d'
+import * as Button from './Button'
+import * as Card from './Card'
 
 export {
   Button,
