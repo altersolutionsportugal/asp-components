@@ -1,10 +1,11 @@
 // eslint-disable-next-line import/no-unresolved
 import { ButtonProps } from '../../@types/Button'
+import { ButtonContainer } from './styles'
 
 const Button = ({ children, onClick }: ButtonProps) => (
-  <div aria-hidden="true" onClick={onClick}>
+  <ButtonContainer aria-hidden="true" onClick={onClick}>
     { children }
-  </div>
+  </ButtonContainer>
 )
 
 export default Button

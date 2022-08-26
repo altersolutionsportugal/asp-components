@@ -24,6 +24,7 @@ export default defineConfig({
         globals: {
           react: 'React',
           'react-dom': 'ReactDOM',
+          '@stitches/react': 'styled',
         },
       },
     },
