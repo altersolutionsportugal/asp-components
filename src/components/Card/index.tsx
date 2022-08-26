@@ -1,17 +1,6 @@
 import React from 'react'
-
-type CardProps = {
-  children: React.ReactNode,
-  /**
-   * @description
-   * The onClick is optional
-   * @default
-   * none
-   * @example
-   * <Card onClick={handleOnClick}>...</Card>
-   */
-  onClick?: () => void,
-}
+// eslint-disable-next-line import/no-unresolved
+import { CardProps } from '../../@types/Card'
 
 export const Card = ({ children, onClick }: CardProps) => (
   <div aria-hidden="true" onClick={onClick}>
