@@ -12,6 +12,3 @@ export type ButtonProps = {
    */
   onClick?: () => void,
 }
-
-declare const Button: React.FC<ButtonProps>
-export { }

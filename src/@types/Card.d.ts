@@ -12,6 +12,3 @@ export type CardProps = {
    */
   onClick?: () => void,
 }
-
-declare const Card: React.FC<CardProps>
-export { }
