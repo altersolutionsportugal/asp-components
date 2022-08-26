@@ -1,7 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders component Card 1`] = `
-<h1>
-  Hello Card
-</h1>
+exports[`renders component Card should create snapShot 1`] = `
+<div
+  aria-hidden="true"
+>
+  <h1>
+    Hello
+  </h1>
+</div>
 `;

@@ -1,3 +1,9 @@
 import React from 'react'
+// eslint-disable-next-line import/no-unresolved
+import { CardProps } from '../../@types/Card'
 
-export const Card = () => <h1>Hello Card</h1>
+export const Card = ({ children, onClick }: CardProps) => (
+  <div aria-hidden="true" onClick={onClick}>
+    { children }
+  </div>
+)

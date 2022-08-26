@@ -2,15 +2,25 @@
   "name": "asp-components",
   "version": "0.0.1",
   "description": "This is the Alter Solutions Design System",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
+  "main": "./dist/lib.umd.js",
+  "module": "./dist/lib.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/lib.es.js",
+      "require": "./dist/lib.umd.js"
+    }
+  },
   "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
     "test": "jest --watch",
     "test:ci": "jest",
     "test:coverage": "jest --ci --coverage",
     "test:badges": "yarn test:coverage  && jest-coverage-badges",
     "lint": "yarn eslint \"src/**/*.{js,jsx,ts,tsx}\"",
-    "dev": "start-storybook -p 6006",
+    "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o docs",
     "build:lib": "rollup -c",
     "commit": "npx git-cz",
@@ -32,7 +42,23 @@
     "url": "https://github.com/altersolutionsportugal/asp-components/issues"
   },
   "homepage": "https://github.com/altersolutionsportugal/asp-components#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6"
+  },
   "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vite-plugin-dts": "^1.4.1",
+    "husky": "^8.0.0",
     "@babel/core": "^7.18.13",
     "@babel/preset-react": "^7.18.6",
     "@rollup/plugin-node-resolve": "^13.3.0",
@@ -51,10 +77,9 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^14.4.3",
     "@types/jest": "^28.1.8",
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.35.1",
     "@typescript-eslint/parser": "^5.35.1",
+    "add": "^2.0.6",
     "babel-loader": "^8.2.5",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "^8.2.0",
@@ -64,28 +89,23 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.31.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "husky": "^8.0.0",
     "jest": "^28.1.3",
     "jest-coverage-badges": "^1.1.2",
     "jest-environment-jsdom": "^28.1.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "rollup": "^2.78.1",
     "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-dts-bundle": "^1.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.33.0",
     "storybook-dark-mode": "^1.1.0",
     "ts-node": "^10.9.1",
-    "typescript": "^4.7.4"
+    "tslib": "^2.4.0"
   },
-  "peerDependencies": {
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "dependencies": {},
+  "files": [
+    "dist"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
