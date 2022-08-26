@@ -136,7 +136,7 @@ yarn test:badges
 
 ### Build storybook
 ```shell
-yarn build
+yarn build-storybook
 ```
 
 ### Build lib to react components
