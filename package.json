@@ -41,7 +41,9 @@
     "url": "https://github.com/altersolutionsportugal/asp-components/issues"
   },
   "homepage": "https://github.com/altersolutionsportugal/asp-components#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.0"
+  },
   "peerDependencies": {
     "@stitches/react": "^1.2.8",
     "@types/react": "^18.0.17",

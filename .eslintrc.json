@@ -6,6 +6,12 @@
       "airbnb"
     ],
     "settings": {
+      "import/parsers": {
+        "@typescript-eslint/parser": [".ts", ".tsx"]
+      },
+      "typescript": {
+        "project": ["tsconfig.json", "package/tsconfig.json"]
+      },
       "import/resolver": {
         "node": {
           "extensions": [ ".js", ".jsx", ".ts", ".tsx", ".json" ]
@@ -19,6 +25,7 @@
       "react/jsx-filename-extension": 0,
       "react/prefer-stateless-function": 0,
       "react/function-component-definition": 0,
+      "react/jsx-props-no-spreading": 0,
       "react/react-in-jsx-scope": 0,
       "react/require-default-props": "off",
       "react/button-has-type": 0,
@@ -31,6 +38,7 @@
       "import/order": 0,
       "import/extensions": "off",
       "import/prefer-default-export": 0,
+      "import/no-unresolved": 0,
       "semi": [ "error", "never" ],
       "object-curly-spacing": [ "error", "always" ],
       "object-curly-newline": [ "error", {
