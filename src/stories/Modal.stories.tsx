@@ -8,6 +8,7 @@ import {
   ModalContent,
   ModalTrigger,
 } from '../components'
+import Flex from '../components/Flex'
 
 const meta: ComponentMeta<typeof ModalComponent> = {
   title: 'Design System/Modal',
@@ -37,6 +38,10 @@ const Template: Story<ModalProps> = (args) => {
       <ModalContent>
         <h1>Hello Modal</h1>
       </ModalContent>
+      <Flex>
+        <Button>Modal 1</Button>
+        <Button>Modal 2</Button>
+      </Flex>
     </ModalComponent>
   )
 }

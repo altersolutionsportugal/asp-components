@@ -42,3 +42,10 @@ export const ModalContainer = styled('div', {
   },
   '&:focus': { outline: 'none' },
 })
+
+export const StyledTitle = styled(DialogPrimitive.Title, {
+  margin: 0,
+  fontWeight: 500,
+  color: '$font_dark',
+  fontSize: '$lg',
+})
