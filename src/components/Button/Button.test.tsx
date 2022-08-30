@@ -1,16 +1,16 @@
 import { render } from '@testing-library/react'
 
-import Card from '.'
+import Button from '.'
 
-describe('renders component Card', () => {
+describe('renders component Button', () => {
   it('should create snapShot', () => {
-    const { container } = render(<Card><h1>Hello</h1></Card>)
+    const { container } = render(<Button><h1>Hello</h1></Button>)
 
     expect(container.firstChild).toMatchSnapshot()
   })
 
   it('should render component with children', () => {
-    const { getByText } = render(<Card><h1>Hello</h1></Card>)
+    const { getByText } = render(<Button><h1>Hello</h1></Button>)
 
     expect(getByText('Hello')).toBeInTheDocument()
   })

@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-unresolved
 import { CardProps } from '../../@types/Card'
 
 const Card = ({ children, onClick }: CardProps) => (

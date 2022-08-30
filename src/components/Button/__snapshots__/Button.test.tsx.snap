@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders component Button should create snapShot 1`] = `
+<button
+  aria-hidden="true"
+  class="c-cGLqUE"
+>
+  <h1>
+    Hello
+  </h1>
+</button>
+`;
