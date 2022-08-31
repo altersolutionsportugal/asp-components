@@ -16,6 +16,7 @@ export declare const ModalWrapper: import("@stitches/react/types/styled-componen
         black: string;
         white: string;
         overlay: string;
+        font_dark: string;
     };
     space: {
         1: string;
@@ -73,6 +74,7 @@ export declare const ModalOverlay: import("@stitches/react/types/styled-componen
         black: string;
         white: string;
         overlay: string;
+        font_dark: string;
     };
     space: {
         1: string;
@@ -130,6 +132,7 @@ export declare const ModalContainer: import("@stitches/react/types/styled-compon
         black: string;
         white: string;
         overlay: string;
+        font_dark: string;
     };
     space: {
         1: string;
