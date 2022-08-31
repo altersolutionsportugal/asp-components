@@ -15,6 +15,7 @@ export declare const ButtonContainer: import("@stitches/react/types/styled-compo
         black: string;
         white: string;
         overlay: string;
+        font: string;
         font_dark: string;
     };
     space: {

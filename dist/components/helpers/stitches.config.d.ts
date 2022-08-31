@@ -17,6 +17,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         black: string;
         white: string;
         overlay: string;
+        font: string;
         font_dark: string;
     };
     space: {
@@ -85,6 +86,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         black: string;
         white: string;
         overlay: string;
+        font: string;
         font_dark: string;
     };
     space: {
@@ -144,6 +146,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         black: string;
         white: string;
         overlay: string;
+        font: string;
         font_dark: string;
     };
     space: {
@@ -218,6 +221,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             black: string;
             white: string;
             overlay: string;
+            font: string;
             font_dark: string;
         };
         space: {
@@ -276,6 +280,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         black: string;
         white: string;
         overlay: string;
+        font: string;
         font_dark: string;
     };
     space: {
@@ -334,6 +339,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             black: string;
             white: string;
             overlay: string;
+            font: string;
             font_dark: string;
         };
         space: {
@@ -398,6 +404,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         black: import("@stitches/react/types/theme").Token<"black", string, "colors", "">;
         white: import("@stitches/react/types/theme").Token<"white", string, "colors", "">;
         overlay: import("@stitches/react/types/theme").Token<"overlay", string, "colors", "">;
+        font: import("@stitches/react/types/theme").Token<"font", string, "colors", "">;
         font_dark: import("@stitches/react/types/theme").Token<"font_dark", string, "colors", "">;
     };
     space: {
@@ -455,6 +462,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         black?: string | number | boolean | undefined;
         white?: string | number | boolean | undefined;
         overlay?: string | number | boolean | undefined;
+        font?: string | number | boolean | undefined;
         font_dark?: string | number | boolean | undefined;
     } | undefined;
     space?: {
@@ -517,6 +525,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         black?: string | number | boolean | undefined;
         white?: string | number | boolean | undefined;
         overlay?: string | number | boolean | undefined;
+        font?: string | number | boolean | undefined;
         font_dark?: string | number | boolean | undefined;
     } | undefined;
     space?: {
@@ -585,6 +594,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             black: string;
             white: string;
             overlay: string;
+            font: string;
             font_dark: string;
         };
         space: {

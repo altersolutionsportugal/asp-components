@@ -1,4 +1,8 @@
-export declare const StyledFlex: import("@stitches/react/types/styled-component").StyledComponent<"div", {}, {}, import("@stitches/react/types/css-util").CSS<{}, {
+import { TextTypeProps } from '../../@types/Text';
+export declare const StyledText: (tag: TextTypeProps) => import("@stitches/react/types/styled-component").StyledComponent<TextTypeProps, {
+    type?: "small" | "b" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "label" | "p" | "span" | "strong" | undefined;
+    weight?: "regular" | "bold" | "normal" | undefined;
+}, {}, import("@stitches/react/types/css-util").CSS<{}, {
     colors: {
         primary: string;
         primary_light: string;
