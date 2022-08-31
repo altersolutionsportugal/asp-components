@@ -1,8 +1,9 @@
 import { ComponentMeta, Story } from '@storybook/react'
 
-import { FlexProps } from '../../@types/Flex'
-import FlexComponent from '.'
+import { FlexProps } from '../@types/Flex'
+import FlexComponent from '../components/Flex'
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const meta: ComponentMeta<typeof FlexComponent> | any = {
   title: 'Design System/Flex',
   component: FlexComponent,

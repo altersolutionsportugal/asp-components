@@ -27,6 +27,7 @@ export const {
       black: '#000000',
       white: '#FFFFFF',
       overlay: 'rgba(0,0,0,0.5)',
+      font: '#333333',
       font_dark: '#1a1523',
     },
     space: {
